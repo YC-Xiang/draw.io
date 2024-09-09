@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram name="第 1 页" id="Wdx_ElfIQ2kTfjwmgPK6">
+    <mxGraphModel dx="1064" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="z1ZTVlwwsorMF4e4j1b6-1" target="z1ZTVlwwsorMF4e4j1b6-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="70" />
+              <mxPoint x="560" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-1" value="drm_mode_atomic_ioctl()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="315" y="20" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-2" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;drm_atomic_state_alloc()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="103.75" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-4" value="drm_atomic_set_property()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="102.5" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z1ZTVlwwsorMF4e4j1b6-7" target="z1ZTVlwwsorMF4e4j1b6-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="z1ZTVlwwsorMF4e4j1b6-7" target="z1ZTVlwwsorMF4e4j1b6-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-7" value="drm_atomic_commit()" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="105" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.515;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="z1ZTVlwwsorMF4e4j1b6-1" target="z1ZTVlwwsorMF4e4j1b6-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="70" />
+              <mxPoint x="92" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-10" value="drm_atomic_check_only()" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z1ZTVlwwsorMF4e4j1b6-12" target="z1ZTVlwwsorMF4e4j1b6-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-12" value="&lt;b&gt;config-&amp;gt;funcs-&amp;gt;atomic_commit&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="170" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-14" value="set_async_flip()" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="106.25" width="86" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="z1ZTVlwwsorMF4e4j1b6-1" target="z1ZTVlwwsorMF4e4j1b6-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="70" />
+              <mxPoint x="255" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="z1ZTVlwwsorMF4e4j1b6-1" target="z1ZTVlwwsorMF4e4j1b6-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z1ZTVlwwsorMF4e4j1b6-19" value="drm_atomic_helper_commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="580" y="230" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
