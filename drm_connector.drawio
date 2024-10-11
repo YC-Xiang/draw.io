@@ -1,9 +1,48 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="TcK6D_HQWbk-52d4z4P7">
-    <mxGraphModel>
+    <mxGraphModel dx="1064" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="8aon0hhrJRD-_G_fsd8w-1" target="8aon0hhrJRD-_G_fsd8w-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-1" value="DRM_IOCTL_MODE_GETCONNECTOR" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="8aon0hhrJRD-_G_fsd8w-2" target="8aon0hhrJRD-_G_fsd8w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-2" value="drm_mode_getconnector" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="110" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aon0hhrJRD-_G_fsd8w-4" target="8aon0hhrJRD-_G_fsd8w-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aon0hhrJRD-_G_fsd8w-4" target="8aon0hhrJRD-_G_fsd8w-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-4" value="&lt;font color=&quot;#ff0000&quot;&gt;connector-&amp;gt;funcs-&amp;gt;fill_modes &lt;/font&gt;(drm_helper_probe_single_connector_modes)" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="295" y="160" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aon0hhrJRD-_G_fsd8w-9" target="8aon0hhrJRD-_G_fsd8w-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-9" value="drm_helper_probe_detect" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-11" value="&lt;font color=&quot;#ff0000&quot;&gt;funcs-&amp;gt;detect_ctx或connector-&amp;gt;funcs-&amp;gt;detect&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="215" y="290" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8aon0hhrJRD-_G_fsd8w-14" target="8aon0hhrJRD-_G_fsd8w-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-14" value="drm_helper_probe_get_modes" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8aon0hhrJRD-_G_fsd8w-16" value="&lt;font color=&quot;#ff0000&quot;&gt;connector_funcs-&amp;gt;get_modes&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="295" width="170" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
