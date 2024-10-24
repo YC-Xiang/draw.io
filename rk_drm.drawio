@@ -1,9 +1,79 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="Page-1" id="6-gjoGEpxw4ECkMXdpWF">
-    <mxGraphModel>
+    <mxGraphModel dx="1891" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-1" value="rk3588-evb4-lp4-v10-linux.dts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JoGAnePk4Ze11UbTm-mj-2" target="JoGAnePk4Ze11UbTm-mj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="rk3588-evb4-lp4.dtsi" id="JoGAnePk4Ze11UbTm-mj-2">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="120" y="120" width="120" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JoGAnePk4Ze11UbTm-mj-3" target="JoGAnePk4Ze11UbTm-mj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#ff0000&quot;&gt;rk3588-linux.dtsi&lt;/font&gt;" id="JoGAnePk4Ze11UbTm-mj-3">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="350" y="120" width="100" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JoGAnePk4Ze11UbTm-mj-4" target="JoGAnePk4Ze11UbTm-mj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#ff0000&quot;&gt;rk3588.dtsi&lt;/font&gt;" id="JoGAnePk4Ze11UbTm-mj-4">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="45" y="50" width="70" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JoGAnePk4Ze11UbTm-mj-5" target="JoGAnePk4Ze11UbTm-mj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#ff0000&quot;&gt;rk3588-evb.dtsi&lt;/font&gt;" id="JoGAnePk4Ze11UbTm-mj-5">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="135" y="50" width="90" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JoGAnePk4Ze11UbTm-mj-6" target="JoGAnePk4Ze11UbTm-mj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="rk3588-rk806-single.dtsi" id="JoGAnePk4Ze11UbTm-mj-6">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="225" y="50" width="140" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JoGAnePk4Ze11UbTm-mj-7" target="JoGAnePk4Ze11UbTm-mj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font color=&quot;#ff0000&quot;&gt;rk3588s.dtsi&lt;/font&gt;" id="JoGAnePk4Ze11UbTm-mj-7">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-35" y="-20" width="80" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JoGAnePk4Ze11UbTm-mj-8" target="JoGAnePk4Ze11UbTm-mj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="rk3588-vccio3-pinctrl.dtsi" id="JoGAnePk4Ze11UbTm-mj-8">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="85" y="-20" width="140" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JoGAnePk4Ze11UbTm-mj-17" target="JoGAnePk4Ze11UbTm-mj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="rockchip-pinconf.dtsi" id="JoGAnePk4Ze11UbTm-mj-17">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="95" y="-70" width="120" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="JoGAnePk4Ze11UbTm-mj-22" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;rk3588某个linux evb设备树结构，红色文件内包含display相关节点：&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-130" width="310" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
