@@ -1,9 +1,138 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="syf8CGJI8Fy8KUV9CtZf">
-    <mxGraphModel>
+    <mxGraphModel dx="1064" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-2" target="7QPMSQ-8bjf0m_F3JloD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-2" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #aca600;&quot;&gt;DRM_IOCTL_PRIME_HANDLE_TO_FD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="160" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-3" target="7QPMSQ-8bjf0m_F3JloD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-3" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_prime_handle_to_fd&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-6" value="&lt;font color=&quot;#999999&quot; style=&quot;font-size: 11px;&quot;&gt;传入GEM handle, 获取dma buf fd&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="130" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-8" target="7QPMSQ-8bjf0m_F3JloD-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-8" target="7QPMSQ-8bjf0m_F3JloD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-8" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;export_and_register_object&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-12" target="7QPMSQ-8bjf0m_F3JloD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-12" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_prime_export&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="125" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-14" value="&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;get_dma_buf&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-16" target="7QPMSQ-8bjf0m_F3JloD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-16" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_dmabuf_export&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="125" width="170" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-18" value="&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;dma_buf_export&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="127.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-20" target="7QPMSQ-8bjf0m_F3JloD-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-20" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #aca600;&quot;&gt;DRM_IOCTL_PRIME_FD_TO_HANDLE&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="260" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-21" value="传入 dma buf fd, 获取GEM handle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry y="240" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-22" target="7QPMSQ-8bjf0m_F3JloD-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-22" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_prime_import&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-23" target="7QPMSQ-8bjf0m_F3JloD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-23" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_prime_fd_to_handle&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-25" target="7QPMSQ-8bjf0m_F3JloD-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-25" target="7QPMSQ-8bjf0m_F3JloD-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-25" target="7QPMSQ-8bjf0m_F3JloD-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-25" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_prime_import_dev&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="260" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-28" target="7QPMSQ-8bjf0m_F3JloD-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-28" value="&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;dma_buf_attach&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-30" target="7QPMSQ-8bjf0m_F3JloD-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-30" value="&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;color: rgb(56, 58, 66);&quot;&gt;&lt;span style=&quot;color: #00afaf;&quot;&gt;dmabuf&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;ops&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;attach&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(64, 120, 242);&quot;&gt;(drm_gem_map_attach)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080.5" y="220" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-32" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;static&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;const&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;struct&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c18401;&quot;&gt;dma_buf_ops&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;drm_gem_prime_dmabuf_ops&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &amp;nbsp;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;cache_sgt_mapping&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;true&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;attach&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_map_attach&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;detach&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_map_detach&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;map_dma_buf&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_map_dma_buf&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;unmap_dma_buf&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_unmap_dma_buf&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;release&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_dmabuf_release&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;mmap&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_dmabuf_mmap&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;vmap&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_dmabuf_vmap&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;vunmap&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #a626a4;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_dmabuf_vunmap&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;};&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="-120" width="500" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-34" target="7QPMSQ-8bjf0m_F3JloD-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-34" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_pin&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-36" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #00afaf;&quot;&gt;obj&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;funcs&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;pin&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="227.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-38" value="&lt;font color=&quot;#999999&quot; style=&quot;font-size: 11px;&quot;&gt;GEM object 的.pin回调&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="200" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-39" target="7QPMSQ-8bjf0m_F3JloD-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-39" value="&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;dma_buf_map_attachment_unlocked&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="280" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-40" value="&lt;font color=&quot;#ff0000&quot;&gt;红色: dma-buf 相关api&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-42" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #00afaf;&quot;&gt;dev&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;driver&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;gem_prime_import_sg_table&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;drm_gem_dma_prime_import_sg_table&lt;/span&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="320" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-45" target="7QPMSQ-8bjf0m_F3JloD-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-45" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;dma_buf_map_attachment&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-47" target="7QPMSQ-8bjf0m_F3JloD-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-47" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;__map_dma_buf&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="280" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7QPMSQ-8bjf0m_F3JloD-49" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #00afaf;&quot;&gt;attach&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;dmabuf&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;ops&lt;/span&gt;&lt;span style=&quot;color: #383a42;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;map_dma_buf&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64, 120, 242);&quot;&gt;drm_gem_map_dma_buf&lt;/span&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="277.5" width="250" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
