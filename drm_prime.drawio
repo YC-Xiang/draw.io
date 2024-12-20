@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="syf8CGJI8Fy8KUV9CtZf">
-    <mxGraphModel dx="1330" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1064" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,10 +13,10 @@
         <mxCell id="7QPMSQ-8bjf0m_F3JloD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7QPMSQ-8bjf0m_F3JloD-3" target="7QPMSQ-8bjf0m_F3JloD-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-3" target="vuLgAwZv7nSGGhIB2zGk-5">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7QPMSQ-8bjf0m_F3JloD-3" target="vuLgAwZv7nSGGhIB2zGk-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-3" target="vuLgAwZv7nSGGhIB2zGk-8">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7QPMSQ-8bjf0m_F3JloD-3" target="vuLgAwZv7nSGGhIB2zGk-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7QPMSQ-8bjf0m_F3JloD-3" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_gem_prime_handle_to_fd&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -55,7 +55,7 @@
         <mxCell id="7QPMSQ-8bjf0m_F3JloD-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7QPMSQ-8bjf0m_F3JloD-20" target="7QPMSQ-8bjf0m_F3JloD-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-20" target="vuLgAwZv7nSGGhIB2zGk-17">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7QPMSQ-8bjf0m_F3JloD-20" target="vuLgAwZv7nSGGhIB2zGk-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7QPMSQ-8bjf0m_F3JloD-20" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #aca600;&quot;&gt;DRM_IOCTL_PRIME_FD_TO_HANDLE&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -200,44 +200,52 @@
         <mxCell id="7QPMSQ-8bjf0m_F3JloD-69" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;这里应该是跳转到import进来的dma-buf的map_dma_buf回调&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;这里以import进来的是drm prime dma-buf 为例&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1695" y="303.75" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7QPMSQ-8bjf0m_F3JloD-25" target="7QPMSQ-8bjf0m_F3JloD-25">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7QPMSQ-8bjf0m_F3JloD-25" target="7QPMSQ-8bjf0m_F3JloD-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-3" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;import回调, 没实现默认为drm_gem_prime_import&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-3" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;import回调, 没实现默认为drm_gem_prime_import&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="495" y="273.75" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-4" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;export回调, 没实现默认为drm_gem_prime_export&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-4" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;export回调, 没实现默认为drm_gem_prime_export&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="720" y="-50" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-5" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_prime_add_buf_handle&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-5" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;drm_prime_add_buf_handle&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="85" width="190" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-7" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;把gem object handle插入rb tree?&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-7" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;把gem object handle插入rb tree?&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="510" y="63.75" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-8" value="&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;dma_buf_fd&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-8" value="&lt;div style=&quot;background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;dma_buf_fd&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="140" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-10" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;生成fd并返回&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-10" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;生成fd并返回&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="120" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-11" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;填充struct dma-buf&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-11" value="&lt;font color=&quot;#999999&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;填充struct dma-buf&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1160" y="-40" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vuLgAwZv7nSGGhIB2zGk-17" target="vuLgAwZv7nSGGhIB2zGk-19">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vuLgAwZv7nSGGhIB2zGk-17" target="vuLgAwZv7nSGGhIB2zGk-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-17" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #aca600;&quot;&gt;DRM_IOCTL_MODE_MAP_DUMB&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-17" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #aca600;&quot;&gt;DRM_IOCTL_MODE_MAP_DUMB&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="25" y="370" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-19" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;mmap&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CaTmLKB_xjKaRtqYqLn0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vuLgAwZv7nSGGhIB2zGk-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="442.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-19" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;mmap&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="425" width="40" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-21" value="拿到gem object handle后, 就可以map dumb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#999999;" vertex="1" parent="1">
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-21" value="拿到gem object handle后, 就可以map dumb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#999999;" parent="1" vertex="1">
           <mxGeometry x="120" y="350" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vuLgAwZv7nSGGhIB2zGk-22" value="最后进行mmap, 就可以对dma-buf内存访问了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="120" y="400" width="240" height="30" as="geometry" />
+        <mxCell id="vuLgAwZv7nSGGhIB2zGk-22" value="最后对dma-buf fd进行mmap, 就可以对dma-buf内存访问了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="120" y="400" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaTmLKB_xjKaRtqYqLn0-5" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;.mmap from imported dma-buf&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="427.5" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
