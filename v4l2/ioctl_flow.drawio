@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="Page-1" id="ewF5Gl14Q7uHlRDfD-Uw">
-    <mxGraphModel dx="1891" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="1802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
         <mxCell id="OIqej2UOMzjBdnWNaWIY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wNvszSJTGbj_hHc-pR2u-29" target="wNvszSJTGbj_hHc-pR2u-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wNvszSJTGbj_hHc-pR2u-29" value="&lt;div style=&quot;color: rgb(56, 58, 66); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;vidioc_streamon&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64, 120, 242); background-color: light-dark(rgb(245, 245, 245), rgb(26, 26, 26));&quot;&gt;vb2_ioctl_streamon&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(228, 86, 73), rgb(235, 113, 102)); background-color: light-dark(rgb(245, 245, 245), rgb(26, 26, 26));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="wNvszSJTGbj_hHc-pR2u-29" value="&lt;div style=&quot;color: rgb(56, 58, 66); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;.vidioc_streamon&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64, 120, 242); background-color: light-dark(rgb(245, 245, 245), rgb(26, 26, 26));&quot;&gt;vb2_ioctl_streamon&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(228, 86, 73), rgb(235, 113, 102)); background-color: light-dark(rgb(245, 245, 245), rgb(26, 26, 26));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="-202.5" y="51.25" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OIqej2UOMzjBdnWNaWIY-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wNvszSJTGbj_hHc-pR2u-30" target="wNvszSJTGbj_hHc-pR2u-29" edge="1">
@@ -228,6 +228,18 @@
         </mxCell>
         <mxCell id="OIqej2UOMzjBdnWNaWIY-15" value="&lt;div style=&quot;color: rgb(56, 58, 66); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;vb2_ops-&amp;gt;buf_queue&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="572" y="-70" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p3EjpBFPJTwsHhxIcUxl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p3EjpBFPJTwsHhxIcUxl-1" target="p3EjpBFPJTwsHhxIcUxl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3EjpBFPJTwsHhxIcUxl-1" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #aca600;&quot;&gt;VIDIOC_STREAMON&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-489.5" y="180" width="120" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p3EjpBFPJTwsHhxIcUxl-2" value="&lt;div style=&quot;color: #383a42;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #4078f2;&quot;&gt;v4l_streamoff&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="181.25" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p3EjpBFPJTwsHhxIcUxl-4" value="&lt;div style=&quot;color: rgb(56, 58, 66); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e45649;&quot;&gt;.vidioc_streamoff&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(228, 86, 73);&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64, 120, 242); background-color: light-dark(rgb(245, 245, 245), rgb(26, 26, 26));&quot;&gt;vb2_ioctl_streamon&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(228, 86, 73), rgb(235, 113, 102)); background-color: light-dark(rgb(245, 245, 245), rgb(26, 26, 26));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-202.5" y="171.25" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
