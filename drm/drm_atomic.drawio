@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="Wdx_ElfIQ2kTfjwmgPK6">
-    <mxGraphModel dx="2079" dy="2971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2157" dy="3011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -799,14 +799,17 @@
         <mxCell id="hBJA5JrjO7JEtEhDDZ1C-24" value="drm_panel_get_modes" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-67.75" y="-890" width="129.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uA4xqrGlUiD7ktBMocD0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hBJA5JrjO7JEtEhDDZ1C-27" target="uA4xqrGlUiD7ktBMocD0-1">
+        <mxCell id="uA4xqrGlUiD7ktBMocD0-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hBJA5JrjO7JEtEhDDZ1C-27" target="uA4xqrGlUiD7ktBMocD0-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hBJA5JrjO7JEtEhDDZ1C-27" value="&lt;font color=&quot;#ff0000&quot;&gt;panel-&amp;gt;funcs-&amp;gt;get_modes&lt;/font&gt;&lt;br&gt;(panel_simple_get_modes)" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-78" y="-850" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uA4xqrGlUiD7ktBMocD0-1" value="填充connector-&amp;gt;probed_modes 链表&lt;div&gt;以及 connector-&amp;gt;display_info 结构体&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uA4xqrGlUiD7ktBMocD0-1" value="填充connector-&amp;gt;probed_modes 链表&lt;div&gt;以及 connector-&amp;gt;display_info 结构体&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-106.75" y="-790" width="208" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f9TDkDUysFeC1hMs-1aC-1" value="&lt;font style=&quot;font-size: 11px; color: rgb(153, 153, 153);&quot;&gt;设置app传入的要修改的property value到state&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="141.25" width="239.38" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
